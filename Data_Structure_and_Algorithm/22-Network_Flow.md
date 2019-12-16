@@ -80,6 +80,7 @@ return f
   + **【Flow Decomposition】：Given $G$ and a flow $f$, there is a collection of flows $f_1, f_2, ...,f_k$, and a collection of $s\rightarrow t$ paths $p_1, p_2, ...,p_k$, such that:(a) $k\leq |E|$, (b) $|f|=|f_1|+...+|f_k|$ and (c) $f_i$ only sends flow over $p_i$**
     + TODO（证明）
   + TODO（补充算法性能）
+  ####question: since the path at most m/|E|, why every time $f^' \leq f(1-\frac{1}{2m})$ but not $f^' \lewq f(1-\frac{1}{m})$
 
 ### 方法二
 + 在选择增强流时，选择最短的增强流
